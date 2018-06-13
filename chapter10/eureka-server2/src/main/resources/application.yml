@@ -1,0 +1,9 @@
+server:
+  port: 8762
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
